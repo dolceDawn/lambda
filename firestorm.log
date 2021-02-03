@@ -1,0 +1,94 @@
+ERROR main thrift.HelloClientDemo - error message : null
+MyException(msg:dolce error!)
+	at thrift.HelloWorldService$sayHello_result$sayHello_resultStandardScheme.read(HelloWorldService.java:990)
+	at thrift.HelloWorldService$sayHello_result$sayHello_resultStandardScheme.read(HelloWorldService.java:968)
+	at thrift.HelloWorldService$sayHello_result.read(HelloWorldService.java:910)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:89)
+	at thrift.HelloWorldService$Client.recv_sayHello(HelloWorldService.java:61)
+	at thrift.HelloWorldService$Client.sayHello(HelloWorldService.java:48)
+	at thrift.HelloClientDemo.startClient(HelloClientDemo.java:34)
+	at thrift.HelloClientDemo.main(HelloClientDemo.java:54)
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 0B 01 10 00 00 00 02 04 41 21 99 9A 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 10 00 00 00 02 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 0B 01 10 00 00 00 02 04 41 24 CC CD 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 10 00 00 00 02 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 06 01 05 00 00 FF 00 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 05 00 00 FF 00 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 06 01 05 00 00 00 00 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 05 00 00 00 00 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 06 01 05 00 01 FF 00 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 05 00 01 FF 00 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 08 01 0F 00 00 00 03 01 05 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 0F 00 00 00 03 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 09 01 0F 00 00 00 0F 02 6D 5B 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 03 01 8F 02 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 08 01 0F 00 00 00 05 01 0D 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 0F 00 00 00 05 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 08 01 0F 00 0A 00 05 01 0D 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 03 01 8F 02 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 0B 01 0F 00 0A 00 1E 04 AD B5 D6 1A 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 03 01 8F 02 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 09 01 0F 00 00 00 0A 02 AD 01 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 0F 00 00 00 0A 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 09 01 0F 00 00 00 0B 02 AD 05 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 03 01 8F 02 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 0D 01 10 00 00 00 03 06 FF FD 00 03 00 09 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 03 01 90 01 
+ERROR main modbus.modbus4j.Modbus4jWriteUtils - Illegal function
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 0D 01 10 00 00 00 03 06 00 01 00 01 00 01 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 03 01 90 01 
+ERROR main modbus.modbus4j.Modbus4jWriteUtils - Illegal function
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 0D 01 10 00 00 00 03 06 00 01 00 01 00 01 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 03 01 90 01 
+ERROR main modbus.modbus4j.Modbus4jWriteUtils - Illegal function
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 09 01 0F 00 00 00 0A 02 AD 01 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 0F 00 00 00 0A 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 09 01 0F 00 00 00 0A 02 AD 01 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 0F 00 00 00 0A 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 0B 01 10 00 00 00 02 04 41 24 CC CD 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 10 00 00 00 02 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 09 01 0F 00 00 00 0A 02 AD 01 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 0F 00 00 00 0A 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 0B 01 10 00 00 00 02 04 41 24 CC CD 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 10 00 00 00 02 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 09 01 0F 00 00 00 0A 02 AD 01 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 0F 00 00 00 0A 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 0B 01 10 00 00 00 02 04 41 24 CC CD 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 10 00 00 00 02 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 09 01 0F 00 00 00 0A 02 AD 01 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 0F 00 00 00 0A 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 0D 01 10 00 00 00 03 06 00 01 00 01 00 01 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 10 00 00 00 03 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 0D 01 10 00 00 00 03 06 00 01 00 01 00 01 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 10 00 00 00 03 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 0D 01 10 00 00 00 03 06 00 01 00 02 00 03 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 10 00 00 00 03 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Encap Request: 00 00 00 00 00 06 01 05 00 01 FF 00 
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Sending on port: 502
+DEBUG main com.serotonin.modbus4j.ip.tcp.TcpMaster - Response: 00 00 00 00 00 06 01 05 00 01 FF 00 
