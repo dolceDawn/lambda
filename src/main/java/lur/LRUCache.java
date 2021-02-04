@@ -9,7 +9,7 @@ import java.util.HashMap;
  * Created by liuzhao on 14-5-12.
  */
 
-public class LRUCache1<K, V> {
+public class LRUCache<K, V> {
 
     private final int MAX_CACHE_SIZE;
     private Entry first;
@@ -17,7 +17,7 @@ public class LRUCache1<K, V> {
 
     private HashMap<K, Entry<K, V>> hashMap;
 
-    public LRUCache1(int cacheSize) {
+    public LRUCache(int cacheSize) {
         MAX_CACHE_SIZE = cacheSize;
         hashMap = new HashMap<K, Entry<K, V>>();
     }
@@ -75,8 +75,11 @@ public class LRUCache1<K, V> {
     private void removeLast() {
         if (last != null) {
             last = last.pre;
-            if (last == null) first = null;
-            else last.next = null;
+            if (last == null) {
+                first = null;
+            } else {
+                last.next = null;
+            }
         }
     }
 

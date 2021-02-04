@@ -10,7 +10,7 @@ public class TestLur {
 
         System.out.println();
         System.out.println("===========================LRU 链表实现===========================");
-        LRUCache1<Integer, String> lru = new LRUCache1(5);
+        LRUCache<Integer, String> lru = new LRUCache(5);
         lru.put(1, "11");
         lru.put(2, "22");
         lru.put(3, "33");
