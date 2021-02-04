@@ -1,4 +1,6 @@
-package merger;
+package tree;
+
+import merger.TreeNode;
 
 public class TreeLoop {
 
@@ -8,7 +10,7 @@ public class TreeLoop {
      * 　　访问顺序：先根节点，再左子树，最后右子树；上图的访问结果为：GDAFEMHZ。
      */
 
-    public void preOrderTraverse1(TreeNode root) {
+    public void preOrderTraverse1(merger.TreeNode root) {
         if (root != null) {
             System.out.print(root.val + "->");
             preOrderTraverse1(root.left);
@@ -22,7 +24,7 @@ public class TreeLoop {
      *
      * 　　访问顺序：先左子树，再根节点，最后右子树；上图的访问结果为：ADEFGHMZ。
      */
-    public void inOrderTraverse(TreeNode root) {
+    public void inOrderTraverse(merger.TreeNode root) {
         if (root != null) {
             inOrderTraverse(root.left);
             System.out.print(root.val + "->");

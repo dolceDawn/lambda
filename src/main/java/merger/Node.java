@@ -1,7 +1,5 @@
 package merger;
 
-import treeflatten.TreeNode;
-
 public class Node {
 
     public int val;
