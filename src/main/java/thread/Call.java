@@ -1,6 +1,6 @@
 package thread;
 
-import treeflatten.TreeNode;
+import tree.TreeNode;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;

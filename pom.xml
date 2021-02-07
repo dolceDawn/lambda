@@ -18,13 +18,13 @@
     </properties>
 
 
-    <repositories>
+    <!--<repositories>
         <repository>
             <id>nexus</id>
             <name>Team Nexus Repository</name>
             <url>https://mvnrepository.com/artifact/org.redisson/redisson</url>
         </repository>
-    </repositories>
+    </repositories>-->
 
     <!-- <pluginRepositories>
         <pluginRepository>

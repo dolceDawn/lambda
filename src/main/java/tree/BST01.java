@@ -1,4 +1,4 @@
-package arithmetic;
+package tree;
 
 public class BST01 {
 

@@ -1,7 +1,6 @@
-package arithmetic;
+package tree;
 
 import com.alibaba.fastjson.JSON;
-import treeflatten.TreeNode;
 
 import java.util.LinkedList;
 import java.util.List;
