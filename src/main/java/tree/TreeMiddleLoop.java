@@ -44,7 +44,7 @@ public class TreeMiddleLoop {
         if (root == null) {
             return;
         }
-        inorder(root.left, res);
+        inorder(root.left, res); 
         res.add(root.val);
         inorder(root.right, res);
     }
