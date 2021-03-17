@@ -1,5 +1,7 @@
 package arithmetic;
 
+import com.alibaba.fastjson.JSON;
+
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
@@ -8,7 +10,13 @@ import java.util.PriorityQueue;
  */
 public class SplitWindowMax {
 
-    public int[] maxSlidingWindow(int[] nums, int k) {
+    public static void main(String[] args) {
+        int[] all = new int[]{1,-2,3,-5,6,7};
+
+        System.out.println(JSON.toJSONString(maxSlidingWindow(all, 2)));
+    }
+
+    public static int[] maxSlidingWindow(int[] nums, int k) {
         // 非空判断
         if (nums == null || k <= 0) return new int[0];
         // 最终结果数组
@@ -26,18 +34,15 @@ public class SplitWindowMax {
     }
 
 
-    public int[] maxSlidingWindow2(int[] nums, int k) {
+    public static int[] maxSlidingWindow2(int[] nums, int k) {
         // 非空判断
         if (nums == null || k <= 0) return new int[]{};
         // 最终结果数组
         int[] res = new int[nums.length - k + 1];
         // 优先队列
-        PriorityQueue<Integer> queue = new PriorityQueue(res.length, new Comparator<Integer>() {
-            @Override
-            public int compare(Integer i1, Integer i2) {
-                // 倒序排列（从大到小，默认是从小到大）
-                return i2 - i1;
-            }
+        PriorityQueue<Integer> queue = new PriorityQueue(res.length, (Comparator<Integer>) (i1, i2) -> {
+            // 倒序排列（从大到小，默认是从小到大）
+            return i2 - i1;
         });
 
         // 第一轮元素添加

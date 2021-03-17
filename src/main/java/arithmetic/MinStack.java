@@ -1,4 +1,4 @@
-package stack;
+package arithmetic;
 
 import java.util.Stack;
 

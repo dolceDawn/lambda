@@ -63,6 +63,9 @@ public class LinkedCycle {
         node4.next = node5;
         node5.next = node2;
         System.out.println(isCycle(node1));
+
+
+        System.out.println(null == null);
     }
 
 
