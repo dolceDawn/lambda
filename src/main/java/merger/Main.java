@@ -10,14 +10,14 @@ public class Main {
     public static void main(String[] args) {
 
         Node root1 = new Node(1);
-        Node node2 = new Node(3);
+        Node node2 = new Node(2);
         Node node3 = new Node(4);
 
         root1.next = node2;
         node2.next = node3;
 
 
-        Node root2 = new Node(2);
+        Node root2 = new Node(3);
         Node node4 = new Node(6);
 
         root2.next = node4;
@@ -34,7 +34,6 @@ public class Main {
         for(int i=1; i<lists.size(); i++){
             head = merge(head, lists.get(i));
         }
-
 
         System.out.println(JSON.toJSONString(head));
 
@@ -53,7 +52,9 @@ public class Main {
                     head = p;
                     rear = head;
                 }else{
+                    //主要是将head的next置为p
                     rear.next = p;
+                    //让rear重新指向head.next
                     rear = p;
                 }
                 p = p.next;
