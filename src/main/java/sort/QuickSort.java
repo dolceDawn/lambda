@@ -9,9 +9,10 @@ import java.util.Arrays;
  2．j--由后向前找比它小的数，找到后挖出此数填前一个坑a[i]中。
  3．i++由前向后找比它大的数，找到后也挖出此数填到前一个坑a[j]中。
  4．再重复执行2，3二步，直到i==j，将基准数填入a[i]中。
- *
+ * https://www.runoob.com/w3cnote/quick-sort.html
  */
 public class QuickSort {
+
 
     public static void main(String[] args) {
         int[] arr = new int[]{0,1,6,9,2,5,3,7,4,8};
