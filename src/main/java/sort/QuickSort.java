@@ -21,6 +21,11 @@ public class QuickSort {
 //        //打印排序的后结果，查看是否正确
 //        quickSort2(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
+        
+        Integer a1 = 100, a2 = 100, a3 = 300, a4 = 300;
+
+        System.out.println(a1 == a2);
+        System.out.println(a3 == a4);
 
 
     }
