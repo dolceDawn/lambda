@@ -8,8 +8,8 @@ public class TestThreadLocal {
     //然后我们将ThreadLocal换成InheritableThreadLocal
 
     public static void main(String[] args) {
-        T.set("23abc");
-        System.out.println("main - " + T.get());
-        new Thread(() -> System.out.println("sub - " + T.get())).start();
+        T1.set("23abc");
+        System.out.println("main - " + T1.get());
+        new Thread(() -> System.out.println("sub - " + T1.get())).start();
     }
 }
