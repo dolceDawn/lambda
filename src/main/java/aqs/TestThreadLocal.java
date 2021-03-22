@@ -9,7 +9,8 @@ public class TestThreadLocal {
 
     public static void main(String[] args) {
         T.set("23abc");
-        System.out.println("main" + T.get());
-        new Thread(() -> System.out.println("sub" + T.get())).start();
+        T.set("23abcd");
+        System.out.println("main - " + T.get());
+        new Thread(() -> System.out.println("sub - " + T.get())).start();
     }
 }
